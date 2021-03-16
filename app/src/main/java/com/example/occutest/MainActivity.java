@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
 
                 btn = findViewById(R.id.btn2);
+
+                btn = findViewById(R.id.btn1);
             }
         });
 
