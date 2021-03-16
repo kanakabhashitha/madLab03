@@ -30,6 +30,9 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent in = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(in);
+
+
+                btn2 = findViewById(R.id.btn1);
             }
         });
 
